@@ -1,0 +1,81 @@
+html, body {
+    font-family: Oswald;
+}
+
+.container {
+    background-color: rgba(60, 20, 204, 0.055);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.container h1 {
+    color: rgb(38, 10, 63);
+}
+
+.container p {
+    font-weight: bold;
+}
+
+.container .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 0, 191, 0.055);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container .image-container .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;  
+}
+
+.container .image-container .image img {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.container .image-container .image:hover img {
+    transform: scale(1.2)
+}
+
+.container .popup-image img {
+ width: 400px;
+ height: 500px;
+ object-fit: cover;
+}
+
+.container .popup-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.container .popup-image span {
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(156, 118, 161);
+    cursor:pointer;
+    z-index: 100;
+}
+
+/*now i need to make the js to open photos etc
+
