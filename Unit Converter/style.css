@@ -1,0 +1,59 @@
+body {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/*Container styling*/
+.container {
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Converter styling */
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*Input, select, and button styling */
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+/*Button hover effect */
+button {
+    background-color: #07090a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6f6f6f;
+}
+
+.resultBox  {
+    background-color: rgba(0, 0, 0, 0.171);
+    position: relative;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+#result {
+    position: relative;
+    top: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
